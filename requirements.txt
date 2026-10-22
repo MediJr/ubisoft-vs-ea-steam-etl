@@ -1,0 +1,5 @@
+# Dépendances du pipeline (versions minimales testées)
+requests>=2.32
+pandas>=2.3
+duckdb>=1.4
+matplotlib>=3.10
