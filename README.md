@@ -67,7 +67,7 @@ flowchart LR
         S3[Steam Web API]
         S4[SteamSpy]
     end
-    subgraph "Python pipeline · one command"
+    subgraph P["Python pipeline · one command"]
         E[Extract<br/>2 passes · cache] --> T[Transform<br/>scope · typing] --> L[Load<br/>transaction]
     end
     S1 & S2 & S3 & S4 --> E
